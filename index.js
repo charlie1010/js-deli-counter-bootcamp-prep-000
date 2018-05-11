@@ -14,7 +14,7 @@ if (katzDeli.length === 0) {
   return "there is nobody waiting to be served!"
 }
 else
-return(`Currently serving $}katzDeli.shift()}.`)
+return(`Currently serving ${katzDeli.shift()}.`)
 
 var line = []
 
