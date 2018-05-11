@@ -29,4 +29,4 @@ function currentLine(katzDeli) {
     return "The line is currently empty.";
   } else
   return(`The line is currently:` + line);
-}x
+}
