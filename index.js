@@ -15,7 +15,7 @@ if (katzDeli.length === 0) {
 }
 else
 return(`Currently serving ${katzDeli.shift()}.`)
-
+}
 
 function currentLine(x) {
     var line = []
