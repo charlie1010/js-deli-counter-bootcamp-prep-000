@@ -14,8 +14,20 @@ if (katzDeli.length === 0) {
   return "there is nobody waiting to be served!"
 }
 else
-return('currently serving $}katzDeli.shift()}.'
+return(`Currently serving $}katzDeli.shift()}.`)
 
-function currentLine() {
-  for or while with if statment
+var line = []
+
+function currentLine(katzDeli) {
+  let i = 0
+  while (i < katzDeli.length) {
+    line.push(' '+[i+1]+'. ' + katzDeli[i])
+    i++
+  }
 }
+  if (katzDeli.length === 0) {
+    return "The line is currently empty."
+   } else
+    return(`The line is currently:` + line)
+  }
+  
